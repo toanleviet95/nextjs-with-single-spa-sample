@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-with-single-spa",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo run web#dev",
+    "dev:web": "turbo run web#dev",
+    "dev:docs": "turbo run docs#dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.3",
+    "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "single-spa": "^6.0.3"
+  }
+}
