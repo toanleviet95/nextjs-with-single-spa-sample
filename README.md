@@ -7,7 +7,7 @@ I used single-spa component from `packages/ui/src/pokemons.tsx` wrap in `<Pokemo
 ### Tech stack
 
 - [Turborepo](https://turbo.build/repo/docs) for scaling monorepos and codebases
-- [single-spa]([https://stenciljs.com/](https://single-spa.js.org/)) for microfrontends in a frontend application
+- [single-spa](https://single-spa.js.org/) for microfrontends in a frontend application
 - [Nextjs](https://nextjs.org/) for SSR web pages
 
 ### Apps and Packages
